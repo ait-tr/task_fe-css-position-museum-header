@@ -3,6 +3,9 @@ main {
 }
 
 .navbar {
+  position: fixed;
+  margin-top: 10px;
+  top: 60px;
   padding: 8px;
   background-color: rgb(102, 102, 102);
   color: white;
