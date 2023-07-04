@@ -3,11 +3,35 @@ main {
 }
 
 /* твой код */
+.sticky-box{
+  background:rgb(102,102,102) ;
+  position: sticky;
+  height: 50px;
+  top: 20px;
+}
 
+/*.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}*/
 
+.navbar{
+  color: aliceblue;
+  font-size: 24px;
+  font-style: oblique;
+  text-align: left;
+  cursor: pointer;
+}
 
+.text-style{
+  position: relative;
+  margin: 15px;
+  top: 10px;
+  text-decoration: underline;
 
-
+}
 
 @font-face {
   font-family: "NarrowNews"; 
@@ -15,3 +39,4 @@ main {
   font-style: normal; 
   font-weight: normal; 
   } 
+  
