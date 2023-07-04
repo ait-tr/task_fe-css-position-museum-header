@@ -17,21 +17,11 @@ main {
     direction: flex;
     justify-content: space-evenly;
     font-family: "NarrowNews"; 
+    font:underlined;
     font-size: 20px; 
     color: white;
+    align-items:center;
   }
-  
-
-
- 
-
-
-
-
-
-
-
-
 @font-face {
   font-family: "NarrowNews"; 
   src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
