@@ -3,21 +3,54 @@
   src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
-  } 
-
+  }
+  
 main {
   height: 200vh;
+}
+
+body {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img {
+  border: none;
+  object-fit: cover;
 }
 
 .navbar {
   position: sticky;
   top: 20px;
   display: flex;
-  height: 30px;
+  height: 50px;
+  border-radius: 20px;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(102,102,102);
   font-family: "NarrowNews", Arial, Helvetica, sans-serif;
-  text-decoration: underline;
+}
+
+.element {
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+  color: unset;
+}
+
+.navbar:hover {
+  background-color: rgb(102,102,102);
+  box-shadow: 0 0 10px rgb(102,102,102);
   color: white;
+}
+
+.element:hover {
+  position: static;
+  box-shadow: 0 -10px 2px rgb(214, 214, 214);
+  margin-top: 15px;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  color: rgb(102,102,102);
 }
