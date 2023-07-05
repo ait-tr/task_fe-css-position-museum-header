@@ -1,17 +1,23 @@
-main {
-  height: 200vh;
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-flow: row ;
 }
 
-/* твой код */
+.red-box {
+ margin-bottom: 35px;
+ 
+  background-color: rgb(109, 100, 100);
+  width: 170px;
+  height: 43px;
+  color: white; 
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  font-size: medium;
+}
 
 
 
 
-
-
-@font-face {
-  font-family: "NarrowNews"; 
-  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-  } 
