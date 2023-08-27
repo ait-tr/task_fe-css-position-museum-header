@@ -14,6 +14,13 @@ a{
   color: aliceblue;
   font-family: 'NarrowNews';
 }
+a:hover{
+  color: yellowgreen;
+}
+.gif{
+  height: 200vh;
+  width: 1248px;
+}
 
 
 
