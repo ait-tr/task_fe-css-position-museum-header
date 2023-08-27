@@ -1,8 +1,18 @@
 main {
   height: 200vh;
 }
+.navbar{
+  background-color: rgb(102,102,102);
+  font-size: 25px;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+}
+a{
+  color: aliceblue;
+  font-family: 'NarrowNews';
+}
 
-/* твой код */
 
 
 
