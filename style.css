@@ -3,11 +3,26 @@ main {
 }
 
 .navbar {
-  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  font-size: 20px;
+  padding: 20px;
+  background-color: rgb(102, 102, 102);
+  position: sticky;
+  top: 0;
+  color: black;
 }
 
+.navbar:hover {
+  background-color: black;
+  transition:all .2s linear;
+}
+
+.nav-item {}
+
 a {
-  padding: 10px;
+
   font-family: "NarrowNews";
   color: white;
 }
@@ -16,23 +31,18 @@ a {
   background-color: aliceblue;
 }
 
-body {
-  background-color: rgb(102, 102, 102);
-}
-
-.navbar {
-  position: sticky;
-  top: 0;
-}
 a:hover {
   color: #DC272F;
   text-decoration: underline;
 }
-html{scroll-behavior: smooth;}
+
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: "NarrowNews";
-  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype");
+  src: url("./fonts/clanot-narrownews.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
