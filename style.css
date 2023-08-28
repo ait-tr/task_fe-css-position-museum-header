@@ -2,11 +2,25 @@ main {
   height: 200vh;
 }
 
-/* твой код */
+.navbar{
+  font-size: 25px;
+}
+
+a {
+  padding: 10px;
+
+ font-family:"NarrowNews";
+  color:white;
+  
+ 
 
 
+ 
+}
+.logo{background-color: aliceblue;
+}
 
-
+body{background-color: rgb(102,102,102);}
 
 
 @font-face {
