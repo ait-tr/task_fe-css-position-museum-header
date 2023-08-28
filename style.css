@@ -24,6 +24,11 @@ body {
   position: sticky;
   top: 0;
 }
+a:hover {
+  color: #DC272F;
+  text-decoration: underline;
+}
+html{scroll-behavior: smooth;}
 
 @font-face {
   font-family: "NarrowNews";
