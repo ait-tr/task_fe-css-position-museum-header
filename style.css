@@ -2,11 +2,34 @@ main {
   height: 200vh;
 }
 
-/* твой код */
+.navbar{
+  height: 40px;
+  display: flex;
+  justify-content: left;
+  gap: 25px;
+  align-items: center;
+  background-color: rgb(102,102,102);
+  list-style-type: none;
+  padding: 0 15px;
+  position: sticky;
+  top: 0;
+}
 
+a {
+    color: white;
+    font-family: "NarrowNews";
+    font-size: 20px;
+}
 
+a:hover {
+  color: #292626;
+  text-decoration: underline;
+}
 
-
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 @font-face {
@@ -15,3 +38,4 @@ main {
   font-style: normal; 
   font-weight: normal; 
   } 
+  
