@@ -1,17 +1,44 @@
+@import url(https://db.onlinewebfonts.com/c/f4fdf3f0e0f194e5849034c8481de2fb?family=ClanOT-NarrowNews);
+
+@font-face {
+  font-family: "NarrowNews";
+  src: url("https://db.onlinewebfonts.com/t/f4fdf3f0e0f194e5849034c8481de2fb.eot");
+  src: url("https://db.onlinewebfonts.com/t/f4fdf3f0e0f194e5849034c8481de2fb.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/f4fdf3f0e0f194e5849034c8481de2fb.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/f4fdf3f0e0f194e5849034c8481de2fb.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/f4fdf3f0e0f194e5849034c8481de2fb.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/f4fdf3f0e0f194e5849034c8481de2fb.svg#ClanOT-NarrowNews")format("svg");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+/* @font-face {
+  font-family: "NarrowNews"; 
+  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  }  */
+
+.custom-font{
+  font-family: "NarrowNews";
+}
+
 main {
   height: 200vh;
 }
 
 /* твой код */
+.navbar{
+  font-family: "NarrowNews";
+  color: white;
+  text-decoration: underline;
+  /* border: 2px solid blue; */
+  background-color: #666666;
+  padding: 10px 10px;
+  display: flex;
+  gap: 10px;
+}
 
 
 
 
-
-
-@font-face {
-  font-family: "NarrowNews"; 
-  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-  } 
