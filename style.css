@@ -1,20 +1,37 @@
-
-.container {
-  background-color: white;
-  display: flex;
-  flex-flow: row ;
+body {
+  margin:0;
+}
+main {
+  height: 200vh;
 }
 
-.red-box {
- margin-bottom: 35px;
-  background-color: rgb(109, 100, 100);
-  width: 170px;
-  height: 43px;
-  color: white; 
+.banner {
+  height: 15vh;
+  
+
+}
+.navbar {
+  padding: 5px;
+  box-sizing: border-box;
+  background-color:rgb(102,102,102);
+  color: #f6f2f2;
   text-decoration: underline;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  
 }
+
+.navbar>a:hover {
+  color: #c9afaf;
+}
+
+@font-face {
+  font-family: "NarrowNews"; 
+  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+
+
+
 
 
 
