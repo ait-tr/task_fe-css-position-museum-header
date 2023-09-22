@@ -1,13 +1,27 @@
+body {
+  margin:0;
+}
 main {
   height: 200vh;
 }
 
-/* твой код */
+.banner {
+  height: 15vh;
+  
 
+}
+.navbar {
+  padding: 5px;
+  box-sizing: border-box;
+  background-color:rgb(102,102,102);
+  color: #f6f2f2;
+  text-decoration: underline;
+  
+}
 
-
-
-
+.navbar>a:hover {
+  color: #c9afaf;
+}
 
 @font-face {
   font-family: "NarrowNews"; 
@@ -15,3 +29,10 @@ main {
   font-style: normal; 
   font-weight: normal; 
   } 
+
+
+
+
+
+
+
