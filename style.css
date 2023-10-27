@@ -21,7 +21,21 @@ main {
 }
 a{
   color: white;
-  
+
+}
+.museum{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 30px;
+}
+.sity{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 30px;
 }
 
 
