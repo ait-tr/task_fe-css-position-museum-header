@@ -3,15 +3,35 @@ main {
 }
 
 /* твой код */
+.banner{
+  margin: 20px;
+  padding: 15px;
+}
 
+.navbar {
+  background-color: rgb(102,102,102);
+
+  top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+
+}
+a{
+  color: white;
+  
+}
 
 
 
 
 
 @font-face {
-  font-family: "NarrowNews"; 
-  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-  } 
+  font-family: "NarrowNews";
+  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  
+}
