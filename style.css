@@ -16,6 +16,9 @@ main {
 .banner img {
   padding-top: 10px;
 }
+.links:hover {
+  color: red;
+}
 @font-face {
   font-family: "NarrowNews";
   src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype");
